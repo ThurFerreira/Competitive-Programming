@@ -33,6 +33,7 @@ void merge(int *v, int in, int meio, int fim)
             }
             else // qual subvetor acabou?
             {
+                //adiciona no aux o elemento que sobrou no outro vetor
                 if (f1 == 1)
                 {
                     aux[i] = v[p2];
